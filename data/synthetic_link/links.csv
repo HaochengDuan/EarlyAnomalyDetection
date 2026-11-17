@@ -1,0 +1,9 @@
+link_id,order,length_mi,upstream_link,downstream_link
+SYN-U5,0,0.5,,SYN-U4
+SYN-U4,1,0.6,SYN-U5,SYN-U3
+SYN-U3,2,0.5,SYN-U4,SYN-U2
+SYN-U2,3,0.5,SYN-U3,SYN-U1
+SYN-U1,4,0.6,SYN-U2,SYN-T0
+SYN-T0,5,1.5,SYN-U1,SYN-D1
+SYN-D1,6,0.6,SYN-T0,SYN-D2
+SYN-D2,7,0.6,SYN-D1,
